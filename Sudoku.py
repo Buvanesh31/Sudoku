@@ -71,6 +71,7 @@ print("Enter the entries row-wise:")
 
 for i in range(n_rows):          
     a =[ ]
+    print("Row:%d" % (i+1))
     for j in range(n_cols):     
          a.append(int(input()))
 
